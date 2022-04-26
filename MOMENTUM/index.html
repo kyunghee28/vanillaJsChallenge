@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MOMENTUM App</title>
+</head>
+<body>
+    <form id="login-form" class="hidden">
+        <input type="text" placeholder="what is your name?"/>
+        <button>Lon In</button>
+    </form>
+    <h2 id="clock">00:00:00</h2>
+    <h1 id="greeting" class="hidden"></h1>  
+    <!-- to-do list -->
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Eenter" required/>
+    </form>
+    <ul id="todo-list">
+    </ul>
+    <!-- // to-do list -->
+    <div id="quote">
+        <span></span> <!-- 명언 -->
+        <span></span> <!-- 말한 사람 -->
+    </div> 
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
